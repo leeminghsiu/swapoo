@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    
+}
+
+body{
+    background-color: rgb(247, 247, 247);
+    font-family: 'Noto Sans TC';
+    font-style: normal;
+    
+    }
+
+li, a, button {
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration:none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 10%;
+    background-color: white;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.178) ;
+
+}
+
+.logo{
+    flex-grow: 1;
+    margin-right:auto ;
+    height: 50px;
+    cursor:cell;
+}
+
+.nav-text li,a  {
+    
+    display:inline-block;
+    padding: 5px 5px;
+    font-weight: bold;
+    color:rgb(100, 100, 100);
+    
+    flex-grow: 1;
+    }
+
+.nav-text li {
+    transition: all 0.3s ease 0s;
+}    
+
+.nav-text li a:hover {
+    color: black;
+} 
+
+.submit{
+    padding: 10px 15px;
+    background-color: rgb(61, 68, 172);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit{
+    transition: all 0.3s ease 0s;
+}
+
+.submit:hover{
+    opacity: 60%;
+}
+
+.log-in{
+    padding: 9px 15px;
+    background-color: white;
+    color: rgb(61, 68, 172);
+    border-radius: 10px;
+    border-color:rgb(61, 68, 172);
+    border-width: 0.2px;
+    cursor: pointer;
+}
+
+.log-in{
+    transition: all 0.3s ease 0s;
+}
+
+.log-in:hover{
+    background-color: rgba(181, 186, 255, 0.315);
+}
+
+.bigTopic{
+    padding: 2% 10% 1% 10%;
+    font-size: 12px;
+    font-weight:900;
+}
+
+.h1d {
+    font-size: 20px;
+    padding: 0% 10%;
+}
+
+.card1{
+    padding: 5%;
+    margin: 24px 10% 48px 10% ;
+    background-color: white;
+    border-radius: 12px;
+    border-color: rgb(0, 0, 0);
+    border-width: .3px;
+    box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.027);
+}
+
+.container-card h1 {
+    color:rgb(49, 63, 145);
+    font-size: 28px;
+    padding-top: 20px;
+}
+
+.container-card div{
+    display: flex;
+    justify-content:space-between;
+    line-height: 38px;
+}
+
+.dashed{
+    margin: 19px 0px;
+}
+
+.cta{
+    background-color:rgb(49, 63, 145) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.cta{
+    transition: all 0.3s ease 0s;
+}
+
+.cta:hover{
+    opacity: 60%;
+}

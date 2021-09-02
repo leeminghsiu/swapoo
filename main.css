@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+}
+
+li, a, button {
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 10%;
+  background-color: white;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.178);
+          box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.178);
+}
+
+.logo {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  margin-right: auto;
+  height: 50px;
+  cursor: cell;
+}
+
+.nav-text li, a {
+  display: inline-block;
+  padding: 5px 5px;
+  font-weight: bold;
+  color: #646464;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.nav-text li {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-text li a:hover {
+  color: black;
+}
+
+.submit {
+  padding: 10px 15px;
+  background-color: #3d44ac;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.submit:hover {
+  opacity: 60%;
+}
+
+.log-in {
+  padding: 9px 15px;
+  background-color: white;
+  color: #3d44ac;
+  border-radius: 10px;
+  border-color: #3d44ac;
+  border-width: 0.2px;
+  cursor: pointer;
+}
+
+.log-in {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.log-in:hover {
+  background-color: rgba(181, 186, 255, 0.315);
+}
+
+.bigTopic {
+  padding: 2% 10% 1% 10%;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.h1d {
+  font-size: 20px;
+  padding: 0% 10%;
+}
+
+.card1 {
+  padding: 5%;
+  margin: 24px 10% 48px 10%;
+  background-color: white;
+  border-radius: 12px;
+  border-color: black;
+  border-width: .3px;
+  -webkit-box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.027);
+          box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.027);
+}
+
+.container-card h1 {
+  color: #313f91;
+  font-size: 28px;
+  padding-top: 20px;
+}
+
+.container-card div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 38px;
+}
+
+.dashed {
+  margin: 19px 0px;
+}
+
+.cta {
+  background-color: #313f91;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.cta {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.cta:hover {
+  opacity: 60%;
+}
+/*# sourceMappingURL=main.css.map */
